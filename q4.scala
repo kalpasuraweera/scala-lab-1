@@ -1,4 +1,4 @@
-@main def main = println(wholeSaleCost(50))
+@main def main = println(wholeSaleCost(60))
 
 def wholeSaleCost(copies:Int):Double = {
   discountedCost(copies) + shippingCost(copies)
